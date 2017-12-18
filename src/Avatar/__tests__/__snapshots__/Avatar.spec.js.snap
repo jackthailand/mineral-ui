@@ -1,0 +1,2388 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Avatar demo examples basic 1`] = `
+.glamor-4 > *,
+[data-glamor-4] > * {
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+}
+
+.glamor-0,
+[data-glamor-0] {
+  align-items: center;
+  background-color: #2e6fd9;
+  color: #fff;
+  border-radius: 1.1111111111111112em;
+  display: -webkit-inline-box;
+  display: -moz-inline-box;
+  display: -ms-inline-flexbox;
+  display: -webkit-inline-flex;
+  display: inline-flex;
+  font-size: 1.125em;
+  font-weight: 700;
+  height: 2.2222222222222223em;
+  line-height: 2.2222222222222223em;
+  justify-content: center;
+  vertical-align: middle;
+  width: 2.2222222222222223em;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+}
+
+.glamor-0 > abbr,
+[data-glamor-0] > abbr {
+  text-decoration: none;
+}
+
+.glamor-0 > img,
+[data-glamor-0] > img {
+  display: block;
+  width: 100%;
+}
+
+.glamor-0 > [role="img"],
+[data-glamor-0] > [role="img"] {
+  fill: #fff;
+}
+
+.glamor-3,
+[data-glamor-3] {
+  align-items: center;
+  background-color: #2e6fd9;
+  color: #fff;
+  border-radius: 1.25em;
+  display: -webkit-inline-box;
+  display: -moz-inline-box;
+  display: -ms-inline-flexbox;
+  display: -webkit-inline-flex;
+  display: inline-flex;
+  font-size: 1em;
+  font-weight: 700;
+  height: 2.5em;
+  line-height: 2.5em;
+  justify-content: center;
+  vertical-align: middle;
+  width: 2.5em;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+}
+
+.glamor-3 > abbr,
+[data-glamor-3] > abbr {
+  text-decoration: none;
+}
+
+.glamor-3 > img,
+[data-glamor-3] > img {
+  display: block;
+  width: 100%;
+}
+
+.glamor-3 > [role="img"],
+[data-glamor-3] > [role="img"] {
+  fill: #fff;
+}
+
+.glamor-2,
+[data-glamor-2] {
+  fill: #8e99ab;
+  font-size: 16px;
+  height: 1.5em;
+  width: 1.5em;
+}
+
+<ThemeProvider>
+  <ThemeProvider
+    theme={
+      Object {
+        "backgroundColor_danger": "#db2929",
+        "backgroundColor_danger_active": "#c71818",
+        "backgroundColor_danger_activeMuted": "#f79999",
+        "backgroundColor_danger_focus": "#db2929",
+        "backgroundColor_danger_hover": "#eb4d4d",
+        "backgroundColor_danger_muted": "#fabebe",
+        "backgroundColor_disabled": "#ebeff5",
+        "backgroundColor_input": "#fff",
+        "backgroundColor_link_focus": "#dde3ed",
+        "backgroundColor_success": "#0a8f4c",
+        "backgroundColor_success_active": "#06783f",
+        "backgroundColor_success_activeMuted": "#95f5c3",
+        "backgroundColor_success_focus": "#0a8f4c",
+        "backgroundColor_success_hover": "#10a35a",
+        "backgroundColor_success_muted": "#c0fadc",
+        "backgroundColor_warning": "#e05b2b",
+        "backgroundColor_warning_active": "#cf4615",
+        "backgroundColor_warning_activeMuted": "#fab69d",
+        "backgroundColor_warning_focus": "#e05b2b",
+        "backgroundColor_warning_hover": "#ed774c",
+        "backgroundColor_warning_muted": "#fcd0c0",
+        "borderColor": "#c8d1e0",
+        "borderColor_active": "#2e6fd9",
+        "borderColor_danger": "#db2929",
+        "borderColor_danger_active": "#c71818",
+        "borderColor_danger_focus": "#c71818",
+        "borderColor_danger_hover": "#c71818",
+        "borderColor_danger_muted": "#f27474",
+        "borderColor_focus": "#2e6fd9",
+        "borderColor_hover": "#2e6fd9",
+        "borderColor_success": "#10a35a",
+        "borderColor_success_active": "#0a8f4c",
+        "borderColor_success_focus": "#0a8f4c",
+        "borderColor_success_hover": "#0a8f4c",
+        "borderColor_success_muted": "#67eba7",
+        "borderColor_warning": "#e05b2b",
+        "borderColor_warning_active": "#cf4615",
+        "borderColor_warning_focus": "#cf4615",
+        "borderColor_warning_hover": "#cf4615",
+        "borderColor_warning_muted": "#f59776",
+        "borderRadius_1": "0.1875em",
+        "color_black": "#1d1f24",
+        "color_caption": "#58606e",
+        "color_gray_10": "#f5f7fa",
+        "color_gray_100": "#333840",
+        "color_gray_20": "#ebeff5",
+        "color_gray_30": "#dde3ed",
+        "color_gray_40": "#c8d1e0",
+        "color_gray_50": "#afbacc",
+        "color_gray_60": "#8e99ab",
+        "color_gray_70": "#707a8a",
+        "color_gray_80": "#58606e",
+        "color_gray_90": "#434a54",
+        "color_placeholder": "#8e99ab",
+        "color_text": "#333840",
+        "color_text_danger": "#db2929",
+        "color_text_danger_active": "#c71818",
+        "color_text_danger_focus": "#db2929",
+        "color_text_danger_hover": "#eb4d4d",
+        "color_text_disabled": "#afbacc",
+        "color_text_ondanger": "#fff",
+        "color_text_onprimary": "#fff",
+        "color_text_onsuccess": "#fff",
+        "color_text_onwarning": "#fff",
+        "color_text_primary": "#2e6fd9",
+        "color_text_primary_active": "#1f5dc2",
+        "color_text_primary_focus": "#2e6fd9",
+        "color_text_primary_hover": "#4a89e8",
+        "color_text_success": "#06783f",
+        "color_text_success_active": "#046132",
+        "color_text_success_focus": "#06783f",
+        "color_text_success_hover": "#0a8f4c",
+        "color_text_warning": "#cf4615",
+        "color_text_warning_active": "#bd3909",
+        "color_text_warning_focus": "#cf4615",
+        "color_text_warning_hover": "#e05b2b",
+        "color_theme_10": "#e6eefc",
+        "color_theme_100": "#0f397d",
+        "color_theme_20": "#c2dbfc",
+        "color_theme_30": "#9dc2fa",
+        "color_theme_40": "#72a5f2",
+        "color_theme_50": "#4a89e8",
+        "color_theme_60": "#2e6fd9",
+        "color_theme_70": "#1f5dc2",
+        "color_theme_80": "#164ea8",
+        "color_theme_90": "#114091",
+        "color_white": "#fff",
+        "direction": "ltr",
+        "fontFamily": "Open Sans",
+        "fontFamily_monospace": "\\"SF Mono\\", \\"Droid Sans Mono\\", \\"Source Code Pro\\", Monaco, Consolas, \\"Courier New\\", Courier, monospace",
+        "fontFamily_system": "-apple-system, system-ui, BlinkMacSystemFont, \\"Segoe UI\\", Roboto, Helvetica, Arial, sans-serif, \\"Apple Color Emoji\\", \\"Segoe UI Emoji\\", \\"Segoe UI Symbol\\"",
+        "fontSize_base": 16,
+        "fontSize_h1": "2.125em",
+        "fontSize_h2": "1.75em",
+        "fontSize_h3": "1.375em",
+        "fontSize_h4": "1.125em",
+        "fontSize_h5": "0.875em",
+        "fontSize_h6": "0.875em",
+        "fontSize_mouse": "0.6875em",
+        "fontSize_prose": "1em",
+        "fontSize_ui": "0.875em",
+        "fontWeight_bold": 700,
+        "fontWeight_extraBold": 800,
+        "fontWeight_regular": 400,
+        "fontWeight_semiBold": 600,
+        "lineHeight": 1.25,
+        "lineHeight_prose": 1.5,
+        "shadow_1": "0 1px 2px 0 rgba(0,0,0,0.2), 0 2px 4px 0 rgba(0,0,0,0.2)",
+        "shadow_2": "0 2px 4px 0 rgba(0,0,0,0.2), 0 4px 8px 0 rgba(0,0,0,0.2)",
+        "shadow_3": "0 4px 8px 0 rgba(0,0,0,0.2), 0 8px 16px 0 rgba(0,0,0,0.2)",
+        "shadow_4": "0 8px 16px 0 rgba(0,0,0,0.2), 0 20px 16px -8px rgba(0,0,0,0.2)",
+        "shadow_5": "0 16px 24px 0 rgba(0,0,0,0.2), 0 32px 24px -16px rgba(0,0,0,0.2)",
+        "size_jumbo": "3.25em",
+        "size_large": "2.5em",
+        "size_medium": "2em",
+        "size_small": "1.5em",
+        "space_inline_lg": "1.5em",
+        "space_inline_md": "1em",
+        "space_inline_sm": "0.5em",
+        "space_inline_xl": "2em",
+        "space_inline_xs": "0.25em",
+        "space_inline_xxl": "4em",
+        "space_inline_xxs": "0.125em",
+        "space_inset_lg": "1.5em",
+        "space_inset_md": "1em",
+        "space_inset_sm": "0.5em",
+        "space_stack_lg": "1.5em",
+        "space_stack_md": "1em",
+        "space_stack_sm": "0.5em",
+        "space_stack_xl": "2em",
+        "space_stack_xs": "0.25em",
+        "space_stack_xxl": "4em",
+        "space_stack_xxs": "0.125em",
+        "zIndex_100": 100,
+        "zIndex_1600": 1600,
+        "zIndex_200": 200,
+        "zIndex_400": 400,
+        "zIndex_800": 800,
+      }
+    }
+  >
+    <LiveProvider
+      code="
+    <DemoLayout>
+      <Avatar>
+        <img src=\\"/images/215x210_avatar.png\\" alt=\\"Allison\\" />
+      </Avatar>
+      <Avatar title=\\"Allison\\">A</Avatar>
+      <Avatar>
+        <IconCloud title=\\"cloud\\" />
+      </Avatar>
+    </DemoLayout>"
+      mountStylesheet={false}
+      noInline={false}
+      scope={
+        Object {
+          "Avatar": [Function],
+          "DemoLayout": [Function],
+          "IconCloud": [Function],
+        }
+      }
+    >
+      <div
+        className="react-live"
+        scope={
+          Object {
+            "Avatar": [Function],
+            "DemoLayout": [Function],
+            "IconCloud": [Function],
+          }
+        }
+      >
+        <LivePreview>
+          <div
+            className="react-live-preview"
+          >
+            <glamorous(div)>
+              <div
+                className="glamor-4"
+              >
+                <Avatar>
+                  <Avatar
+                    color="theme"
+                    icon={undefined}
+                    size="large"
+                  >
+                    <span
+                      className="glamor-0"
+                    >
+                      <img
+                        alt="Allison"
+                        src="/images/215x210_avatar.png"
+                      />
+                    </span>
+                  </Avatar>
+                </Avatar>
+                <Avatar
+                  title="Allison"
+                >
+                  <Avatar
+                    color="theme"
+                    icon={undefined}
+                    size="large"
+                  >
+                    <span
+                      className="glamor-0"
+                    >
+                      <abbr
+                        title="Allison"
+                      >
+                        A
+                      </abbr>
+                    </span>
+                  </Avatar>
+                </Avatar>
+                <Avatar>
+                  <Avatar
+                    color="theme"
+                    icon={
+                      <IconCloud
+                        size="1.5em"
+                        title="cloud"
+                      />
+                    }
+                    size="large"
+                  >
+                    <span
+                      className="glamor-3"
+                    >
+                      <IconCloud
+                        size="1.5em"
+                        title="cloud"
+                      >
+                        <Icon
+                          rtl={false}
+                          size="1.5em"
+                          title="cloud"
+                        >
+                          <glamorous(svg)
+                            aria-hidden={null}
+                            aria-labelledby="icon-title-icon-1"
+                            role="img"
+                            rtl={false}
+                            size="1.5em"
+                            viewBox="0 0 24 24"
+                          >
+                            <svg
+                              aria-hidden={null}
+                              aria-labelledby="icon-title-icon-1"
+                              className="glamor-2"
+                              role="img"
+                              viewBox="0 0 24 24"
+                            >
+                              <title
+                                id="icon-title-icon-1"
+                              >
+                                cloud
+                              </title>
+                              <g>
+                                <path
+                                  d="M19.35 10.04A7.49 7.49 0 0 0 12 4C9.11 4 6.6 5.64 5.35 8.04A5.994 5.994 0 0 0 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96z"
+                                />
+                              </g>
+                            </svg>
+                          </glamorous(svg)>
+                        </Icon>
+                      </IconCloud>
+                    </span>
+                  </Avatar>
+                </Avatar>
+              </div>
+            </glamorous(div)>
+          </div>
+        </LivePreview>
+      </div>
+    </LiveProvider>
+  </ThemeProvider>
+</ThemeProvider>
+`;
+
+exports[`Avatar demo examples colors 1`] = `
+.glamor-15 > *,
+[data-glamor-15] > * {
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+}
+
+.glamor-4,
+[data-glamor-4] {
+  align-items: center;
+  background-color: #2e6fd9;
+  color: #fff;
+  border-radius: 1.1111111111111112em;
+  display: -webkit-inline-box;
+  display: -moz-inline-box;
+  display: -ms-inline-flexbox;
+  display: -webkit-inline-flex;
+  display: inline-flex;
+  font-size: 1.125em;
+  font-weight: 700;
+  height: 2.2222222222222223em;
+  line-height: 2.2222222222222223em;
+  justify-content: center;
+  vertical-align: middle;
+  width: 2.2222222222222223em;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+}
+
+.glamor-4 > abbr,
+[data-glamor-4] > abbr {
+  text-decoration: none;
+}
+
+.glamor-4 > img,
+[data-glamor-4] > img {
+  display: block;
+  width: 100%;
+}
+
+.glamor-4 > [role="img"],
+[data-glamor-4] > [role="img"] {
+  fill: #fff;
+}
+
+.glamor-0,
+[data-glamor-0] {
+  align-items: center;
+  background-color: #db2929;
+  color: #fff;
+  border-radius: 1.1111111111111112em;
+  display: -webkit-inline-box;
+  display: -moz-inline-box;
+  display: -ms-inline-flexbox;
+  display: -webkit-inline-flex;
+  display: inline-flex;
+  font-size: 1.125em;
+  font-weight: 700;
+  height: 2.2222222222222223em;
+  line-height: 2.2222222222222223em;
+  justify-content: center;
+  vertical-align: middle;
+  width: 2.2222222222222223em;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+}
+
+.glamor-0 > abbr,
+[data-glamor-0] > abbr {
+  text-decoration: none;
+}
+
+.glamor-0 > img,
+[data-glamor-0] > img {
+  display: block;
+  width: 100%;
+}
+
+.glamor-0 > [role="img"],
+[data-glamor-0] > [role="img"] {
+  fill: #fff;
+}
+
+.glamor-1,
+[data-glamor-1] {
+  align-items: center;
+  background-color: #d92762;
+  color: #fff;
+  border-radius: 1.1111111111111112em;
+  display: -webkit-inline-box;
+  display: -moz-inline-box;
+  display: -ms-inline-flexbox;
+  display: -webkit-inline-flex;
+  display: inline-flex;
+  font-size: 1.125em;
+  font-weight: 700;
+  height: 2.2222222222222223em;
+  line-height: 2.2222222222222223em;
+  justify-content: center;
+  vertical-align: middle;
+  width: 2.2222222222222223em;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+}
+
+.glamor-1 > abbr,
+[data-glamor-1] > abbr {
+  text-decoration: none;
+}
+
+.glamor-1 > img,
+[data-glamor-1] > img {
+  display: block;
+  width: 100%;
+}
+
+.glamor-1 > [role="img"],
+[data-glamor-1] > [role="img"] {
+  fill: #fff;
+}
+
+.glamor-2,
+[data-glamor-2] {
+  align-items: center;
+  background-color: #9545d8;
+  color: #fff;
+  border-radius: 1.1111111111111112em;
+  display: -webkit-inline-box;
+  display: -moz-inline-box;
+  display: -ms-inline-flexbox;
+  display: -webkit-inline-flex;
+  display: inline-flex;
+  font-size: 1.125em;
+  font-weight: 700;
+  height: 2.2222222222222223em;
+  line-height: 2.2222222222222223em;
+  justify-content: center;
+  vertical-align: middle;
+  width: 2.2222222222222223em;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+}
+
+.glamor-2 > abbr,
+[data-glamor-2] > abbr {
+  text-decoration: none;
+}
+
+.glamor-2 > img,
+[data-glamor-2] > img {
+  display: block;
+  width: 100%;
+}
+
+.glamor-2 > [role="img"],
+[data-glamor-2] > [role="img"] {
+  fill: #fff;
+}
+
+.glamor-3,
+[data-glamor-3] {
+  align-items: center;
+  background-color: #4c4ce0;
+  color: #fff;
+  border-radius: 1.1111111111111112em;
+  display: -webkit-inline-box;
+  display: -moz-inline-box;
+  display: -ms-inline-flexbox;
+  display: -webkit-inline-flex;
+  display: inline-flex;
+  font-size: 1.125em;
+  font-weight: 700;
+  height: 2.2222222222222223em;
+  line-height: 2.2222222222222223em;
+  justify-content: center;
+  vertical-align: middle;
+  width: 2.2222222222222223em;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+}
+
+.glamor-3 > abbr,
+[data-glamor-3] > abbr {
+  text-decoration: none;
+}
+
+.glamor-3 > img,
+[data-glamor-3] > img {
+  display: block;
+  width: 100%;
+}
+
+.glamor-3 > [role="img"],
+[data-glamor-3] > [role="img"] {
+  fill: #fff;
+}
+
+.glamor-5,
+[data-glamor-5] {
+  align-items: center;
+  background-color: #2f9fe0;
+  color: #1d1f24;
+  border-radius: 1.1111111111111112em;
+  display: -webkit-inline-box;
+  display: -moz-inline-box;
+  display: -ms-inline-flexbox;
+  display: -webkit-inline-flex;
+  display: inline-flex;
+  font-size: 1.125em;
+  font-weight: 700;
+  height: 2.2222222222222223em;
+  line-height: 2.2222222222222223em;
+  justify-content: center;
+  vertical-align: middle;
+  width: 2.2222222222222223em;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+}
+
+.glamor-5 > abbr,
+[data-glamor-5] > abbr {
+  text-decoration: none;
+}
+
+.glamor-5 > img,
+[data-glamor-5] > img {
+  display: block;
+  width: 100%;
+}
+
+.glamor-5 > [role="img"],
+[data-glamor-5] > [role="img"] {
+  fill: #1d1f24;
+}
+
+.glamor-6,
+[data-glamor-6] {
+  align-items: center;
+  background-color: #20baa3;
+  color: #1d1f24;
+  border-radius: 1.1111111111111112em;
+  display: -webkit-inline-box;
+  display: -moz-inline-box;
+  display: -ms-inline-flexbox;
+  display: -webkit-inline-flex;
+  display: inline-flex;
+  font-size: 1.125em;
+  font-weight: 700;
+  height: 2.2222222222222223em;
+  line-height: 2.2222222222222223em;
+  justify-content: center;
+  vertical-align: middle;
+  width: 2.2222222222222223em;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+}
+
+.glamor-6 > abbr,
+[data-glamor-6] > abbr {
+  text-decoration: none;
+}
+
+.glamor-6 > img,
+[data-glamor-6] > img {
+  display: block;
+  width: 100%;
+}
+
+.glamor-6 > [role="img"],
+[data-glamor-6] > [role="img"] {
+  fill: #1d1f24;
+}
+
+.glamor-7,
+[data-glamor-7] {
+  align-items: center;
+  background-color: #1fc06f;
+  color: #1d1f24;
+  border-radius: 1.1111111111111112em;
+  display: -webkit-inline-box;
+  display: -moz-inline-box;
+  display: -ms-inline-flexbox;
+  display: -webkit-inline-flex;
+  display: inline-flex;
+  font-size: 1.125em;
+  font-weight: 700;
+  height: 2.2222222222222223em;
+  line-height: 2.2222222222222223em;
+  justify-content: center;
+  vertical-align: middle;
+  width: 2.2222222222222223em;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+}
+
+.glamor-7 > abbr,
+[data-glamor-7] > abbr {
+  text-decoration: none;
+}
+
+.glamor-7 > img,
+[data-glamor-7] > img {
+  display: block;
+  width: 100%;
+}
+
+.glamor-7 > [role="img"],
+[data-glamor-7] > [role="img"] {
+  fill: #1d1f24;
+}
+
+.glamor-8,
+[data-glamor-8] {
+  align-items: center;
+  background-color: #81d42f;
+  color: #1d1f24;
+  border-radius: 1.1111111111111112em;
+  display: -webkit-inline-box;
+  display: -moz-inline-box;
+  display: -ms-inline-flexbox;
+  display: -webkit-inline-flex;
+  display: inline-flex;
+  font-size: 1.125em;
+  font-weight: 700;
+  height: 2.2222222222222223em;
+  line-height: 2.2222222222222223em;
+  justify-content: center;
+  vertical-align: middle;
+  width: 2.2222222222222223em;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+}
+
+.glamor-8 > abbr,
+[data-glamor-8] > abbr {
+  text-decoration: none;
+}
+
+.glamor-8 > img,
+[data-glamor-8] > img {
+  display: block;
+  width: 100%;
+}
+
+.glamor-8 > [role="img"],
+[data-glamor-8] > [role="img"] {
+  fill: #1d1f24;
+}
+
+.glamor-9,
+[data-glamor-9] {
+  align-items: center;
+  background-color: #e3a322;
+  color: #1d1f24;
+  border-radius: 1.1111111111111112em;
+  display: -webkit-inline-box;
+  display: -moz-inline-box;
+  display: -ms-inline-flexbox;
+  display: -webkit-inline-flex;
+  display: inline-flex;
+  font-size: 1.125em;
+  font-weight: 700;
+  height: 2.2222222222222223em;
+  line-height: 2.2222222222222223em;
+  justify-content: center;
+  vertical-align: middle;
+  width: 2.2222222222222223em;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+}
+
+.glamor-9 > abbr,
+[data-glamor-9] > abbr {
+  text-decoration: none;
+}
+
+.glamor-9 > img,
+[data-glamor-9] > img {
+  display: block;
+  width: 100%;
+}
+
+.glamor-9 > [role="img"],
+[data-glamor-9] > [role="img"] {
+  fill: #1d1f24;
+}
+
+.glamor-10,
+[data-glamor-10] {
+  align-items: center;
+  background-color: #e05b2b;
+  color: #fff;
+  border-radius: 1.1111111111111112em;
+  display: -webkit-inline-box;
+  display: -moz-inline-box;
+  display: -ms-inline-flexbox;
+  display: -webkit-inline-flex;
+  display: inline-flex;
+  font-size: 1.125em;
+  font-weight: 700;
+  height: 2.2222222222222223em;
+  line-height: 2.2222222222222223em;
+  justify-content: center;
+  vertical-align: middle;
+  width: 2.2222222222222223em;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+}
+
+.glamor-10 > abbr,
+[data-glamor-10] > abbr {
+  text-decoration: none;
+}
+
+.glamor-10 > img,
+[data-glamor-10] > img {
+  display: block;
+  width: 100%;
+}
+
+.glamor-10 > [role="img"],
+[data-glamor-10] > [role="img"] {
+  fill: #fff;
+}
+
+.glamor-11,
+[data-glamor-11] {
+  align-items: center;
+  background-color: #8e99ab;
+  color: #1d1f24;
+  border-radius: 1.1111111111111112em;
+  display: -webkit-inline-box;
+  display: -moz-inline-box;
+  display: -ms-inline-flexbox;
+  display: -webkit-inline-flex;
+  display: inline-flex;
+  font-size: 1.125em;
+  font-weight: 700;
+  height: 2.2222222222222223em;
+  line-height: 2.2222222222222223em;
+  justify-content: center;
+  vertical-align: middle;
+  width: 2.2222222222222223em;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+}
+
+.glamor-11 > abbr,
+[data-glamor-11] > abbr {
+  text-decoration: none;
+}
+
+.glamor-11 > img,
+[data-glamor-11] > img {
+  display: block;
+  width: 100%;
+}
+
+.glamor-11 > [role="img"],
+[data-glamor-11] > [role="img"] {
+  fill: #1d1f24;
+}
+
+.glamor-12,
+[data-glamor-12] {
+  align-items: center;
+  background-color: #598296;
+  color: #fff;
+  border-radius: 1.1111111111111112em;
+  display: -webkit-inline-box;
+  display: -moz-inline-box;
+  display: -ms-inline-flexbox;
+  display: -webkit-inline-flex;
+  display: inline-flex;
+  font-size: 1.125em;
+  font-weight: 700;
+  height: 2.2222222222222223em;
+  line-height: 2.2222222222222223em;
+  justify-content: center;
+  vertical-align: middle;
+  width: 2.2222222222222223em;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+}
+
+.glamor-12 > abbr,
+[data-glamor-12] > abbr {
+  text-decoration: none;
+}
+
+.glamor-12 > img,
+[data-glamor-12] > img {
+  display: block;
+  width: 100%;
+}
+
+.glamor-12 > [role="img"],
+[data-glamor-12] > [role="img"] {
+  fill: #fff;
+}
+
+.glamor-13,
+[data-glamor-13] {
+  align-items: center;
+  background-color: #596387;
+  color: #fff;
+  border-radius: 1.1111111111111112em;
+  display: -webkit-inline-box;
+  display: -moz-inline-box;
+  display: -ms-inline-flexbox;
+  display: -webkit-inline-flex;
+  display: inline-flex;
+  font-size: 1.125em;
+  font-weight: 700;
+  height: 2.2222222222222223em;
+  line-height: 2.2222222222222223em;
+  justify-content: center;
+  vertical-align: middle;
+  width: 2.2222222222222223em;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+}
+
+.glamor-13 > abbr,
+[data-glamor-13] > abbr {
+  text-decoration: none;
+}
+
+.glamor-13 > img,
+[data-glamor-13] > img {
+  display: block;
+  width: 100%;
+}
+
+.glamor-13 > [role="img"],
+[data-glamor-13] > [role="img"] {
+  fill: #fff;
+}
+
+<ThemeProvider>
+  <ThemeProvider
+    theme={
+      Object {
+        "backgroundColor_danger": "#db2929",
+        "backgroundColor_danger_active": "#c71818",
+        "backgroundColor_danger_activeMuted": "#f79999",
+        "backgroundColor_danger_focus": "#db2929",
+        "backgroundColor_danger_hover": "#eb4d4d",
+        "backgroundColor_danger_muted": "#fabebe",
+        "backgroundColor_disabled": "#ebeff5",
+        "backgroundColor_input": "#fff",
+        "backgroundColor_link_focus": "#dde3ed",
+        "backgroundColor_success": "#0a8f4c",
+        "backgroundColor_success_active": "#06783f",
+        "backgroundColor_success_activeMuted": "#95f5c3",
+        "backgroundColor_success_focus": "#0a8f4c",
+        "backgroundColor_success_hover": "#10a35a",
+        "backgroundColor_success_muted": "#c0fadc",
+        "backgroundColor_warning": "#e05b2b",
+        "backgroundColor_warning_active": "#cf4615",
+        "backgroundColor_warning_activeMuted": "#fab69d",
+        "backgroundColor_warning_focus": "#e05b2b",
+        "backgroundColor_warning_hover": "#ed774c",
+        "backgroundColor_warning_muted": "#fcd0c0",
+        "borderColor": "#c8d1e0",
+        "borderColor_active": "#2e6fd9",
+        "borderColor_danger": "#db2929",
+        "borderColor_danger_active": "#c71818",
+        "borderColor_danger_focus": "#c71818",
+        "borderColor_danger_hover": "#c71818",
+        "borderColor_danger_muted": "#f27474",
+        "borderColor_focus": "#2e6fd9",
+        "borderColor_hover": "#2e6fd9",
+        "borderColor_success": "#10a35a",
+        "borderColor_success_active": "#0a8f4c",
+        "borderColor_success_focus": "#0a8f4c",
+        "borderColor_success_hover": "#0a8f4c",
+        "borderColor_success_muted": "#67eba7",
+        "borderColor_warning": "#e05b2b",
+        "borderColor_warning_active": "#cf4615",
+        "borderColor_warning_focus": "#cf4615",
+        "borderColor_warning_hover": "#cf4615",
+        "borderColor_warning_muted": "#f59776",
+        "borderRadius_1": "0.1875em",
+        "color_black": "#1d1f24",
+        "color_caption": "#58606e",
+        "color_gray_10": "#f5f7fa",
+        "color_gray_100": "#333840",
+        "color_gray_20": "#ebeff5",
+        "color_gray_30": "#dde3ed",
+        "color_gray_40": "#c8d1e0",
+        "color_gray_50": "#afbacc",
+        "color_gray_60": "#8e99ab",
+        "color_gray_70": "#707a8a",
+        "color_gray_80": "#58606e",
+        "color_gray_90": "#434a54",
+        "color_placeholder": "#8e99ab",
+        "color_text": "#333840",
+        "color_text_danger": "#db2929",
+        "color_text_danger_active": "#c71818",
+        "color_text_danger_focus": "#db2929",
+        "color_text_danger_hover": "#eb4d4d",
+        "color_text_disabled": "#afbacc",
+        "color_text_ondanger": "#fff",
+        "color_text_onprimary": "#fff",
+        "color_text_onsuccess": "#fff",
+        "color_text_onwarning": "#fff",
+        "color_text_primary": "#2e6fd9",
+        "color_text_primary_active": "#1f5dc2",
+        "color_text_primary_focus": "#2e6fd9",
+        "color_text_primary_hover": "#4a89e8",
+        "color_text_success": "#06783f",
+        "color_text_success_active": "#046132",
+        "color_text_success_focus": "#06783f",
+        "color_text_success_hover": "#0a8f4c",
+        "color_text_warning": "#cf4615",
+        "color_text_warning_active": "#bd3909",
+        "color_text_warning_focus": "#cf4615",
+        "color_text_warning_hover": "#e05b2b",
+        "color_theme_10": "#e6eefc",
+        "color_theme_100": "#0f397d",
+        "color_theme_20": "#c2dbfc",
+        "color_theme_30": "#9dc2fa",
+        "color_theme_40": "#72a5f2",
+        "color_theme_50": "#4a89e8",
+        "color_theme_60": "#2e6fd9",
+        "color_theme_70": "#1f5dc2",
+        "color_theme_80": "#164ea8",
+        "color_theme_90": "#114091",
+        "color_white": "#fff",
+        "direction": "ltr",
+        "fontFamily": "Open Sans",
+        "fontFamily_monospace": "\\"SF Mono\\", \\"Droid Sans Mono\\", \\"Source Code Pro\\", Monaco, Consolas, \\"Courier New\\", Courier, monospace",
+        "fontFamily_system": "-apple-system, system-ui, BlinkMacSystemFont, \\"Segoe UI\\", Roboto, Helvetica, Arial, sans-serif, \\"Apple Color Emoji\\", \\"Segoe UI Emoji\\", \\"Segoe UI Symbol\\"",
+        "fontSize_base": 16,
+        "fontSize_h1": "2.125em",
+        "fontSize_h2": "1.75em",
+        "fontSize_h3": "1.375em",
+        "fontSize_h4": "1.125em",
+        "fontSize_h5": "0.875em",
+        "fontSize_h6": "0.875em",
+        "fontSize_mouse": "0.6875em",
+        "fontSize_prose": "1em",
+        "fontSize_ui": "0.875em",
+        "fontWeight_bold": 700,
+        "fontWeight_extraBold": 800,
+        "fontWeight_regular": 400,
+        "fontWeight_semiBold": 600,
+        "lineHeight": 1.25,
+        "lineHeight_prose": 1.5,
+        "shadow_1": "0 1px 2px 0 rgba(0,0,0,0.2), 0 2px 4px 0 rgba(0,0,0,0.2)",
+        "shadow_2": "0 2px 4px 0 rgba(0,0,0,0.2), 0 4px 8px 0 rgba(0,0,0,0.2)",
+        "shadow_3": "0 4px 8px 0 rgba(0,0,0,0.2), 0 8px 16px 0 rgba(0,0,0,0.2)",
+        "shadow_4": "0 8px 16px 0 rgba(0,0,0,0.2), 0 20px 16px -8px rgba(0,0,0,0.2)",
+        "shadow_5": "0 16px 24px 0 rgba(0,0,0,0.2), 0 32px 24px -16px rgba(0,0,0,0.2)",
+        "size_jumbo": "3.25em",
+        "size_large": "2.5em",
+        "size_medium": "2em",
+        "size_small": "1.5em",
+        "space_inline_lg": "1.5em",
+        "space_inline_md": "1em",
+        "space_inline_sm": "0.5em",
+        "space_inline_xl": "2em",
+        "space_inline_xs": "0.25em",
+        "space_inline_xxl": "4em",
+        "space_inline_xxs": "0.125em",
+        "space_inset_lg": "1.5em",
+        "space_inset_md": "1em",
+        "space_inset_sm": "0.5em",
+        "space_stack_lg": "1.5em",
+        "space_stack_md": "1em",
+        "space_stack_sm": "0.5em",
+        "space_stack_xl": "2em",
+        "space_stack_xs": "0.25em",
+        "space_stack_xxl": "4em",
+        "space_stack_xxs": "0.125em",
+        "zIndex_100": 100,
+        "zIndex_1600": 1600,
+        "zIndex_200": 200,
+        "zIndex_400": 400,
+        "zIndex_800": 800,
+      }
+    }
+  >
+    <LiveProvider
+      code="
+    <DemoLayout>
+      <Avatar color=\\"red\\"     title=\\"Red\\"    >R</Avatar>
+      <Avatar color=\\"magenta\\" title=\\"Magenta\\">M</Avatar>
+      <Avatar color=\\"purple\\"  title=\\"Purple\\" >P</Avatar>
+      <Avatar color=\\"indigo\\"  title=\\"Indigo\\" >I</Avatar>
+      <Avatar color=\\"blue\\"    title=\\"Blue\\"   >B</Avatar>
+      <Avatar color=\\"sky\\"     title=\\"Sky\\"    >S</Avatar>
+      <Avatar color=\\"teal\\"    title=\\"Teal\\"   >T</Avatar>
+      <Avatar color=\\"green\\"   title=\\"Green\\"  >G</Avatar>
+      <Avatar color=\\"lime\\"    title=\\"Lime\\"   >L</Avatar>
+      <Avatar color=\\"yellow\\"  title=\\"Yellow\\" >Y</Avatar>
+      <Avatar color=\\"orange\\"  title=\\"Orange\\" >O</Avatar>
+      <Avatar color=\\"gray\\"    title=\\"Gray\\"   >G</Avatar>
+      <Avatar color=\\"slate\\"   title=\\"Slate\\"  >S</Avatar>
+      <Avatar color=\\"dusk\\"    title=\\"Dusk\\"   >D</Avatar>
+      <Avatar color=\\"theme\\"   title=\\"Theme\\"  >T</Avatar>
+    </DemoLayout>"
+      mountStylesheet={false}
+      noInline={false}
+      scope={
+        Object {
+          "Avatar": [Function],
+          "DemoLayout": [Function],
+        }
+      }
+    >
+      <div
+        className="react-live"
+        scope={
+          Object {
+            "Avatar": [Function],
+            "DemoLayout": [Function],
+          }
+        }
+      >
+        <LivePreview>
+          <div
+            className="react-live-preview"
+          >
+            <glamorous(div)>
+              <div
+                className="glamor-15"
+              >
+                <Avatar
+                  color="red"
+                  title="Red"
+                >
+                  <Avatar
+                    color="red"
+                    icon={undefined}
+                    size="large"
+                  >
+                    <span
+                      className="glamor-0"
+                    >
+                      <abbr
+                        title="Red"
+                      >
+                        R
+                      </abbr>
+                    </span>
+                  </Avatar>
+                </Avatar>
+                <Avatar
+                  color="magenta"
+                  title="Magenta"
+                >
+                  <Avatar
+                    color="magenta"
+                    icon={undefined}
+                    size="large"
+                  >
+                    <span
+                      className="glamor-1"
+                    >
+                      <abbr
+                        title="Magenta"
+                      >
+                        M
+                      </abbr>
+                    </span>
+                  </Avatar>
+                </Avatar>
+                <Avatar
+                  color="purple"
+                  title="Purple"
+                >
+                  <Avatar
+                    color="purple"
+                    icon={undefined}
+                    size="large"
+                  >
+                    <span
+                      className="glamor-2"
+                    >
+                      <abbr
+                        title="Purple"
+                      >
+                        P
+                      </abbr>
+                    </span>
+                  </Avatar>
+                </Avatar>
+                <Avatar
+                  color="indigo"
+                  title="Indigo"
+                >
+                  <Avatar
+                    color="indigo"
+                    icon={undefined}
+                    size="large"
+                  >
+                    <span
+                      className="glamor-3"
+                    >
+                      <abbr
+                        title="Indigo"
+                      >
+                        I
+                      </abbr>
+                    </span>
+                  </Avatar>
+                </Avatar>
+                <Avatar
+                  color="blue"
+                  title="Blue"
+                >
+                  <Avatar
+                    color="blue"
+                    icon={undefined}
+                    size="large"
+                  >
+                    <span
+                      className="glamor-4"
+                    >
+                      <abbr
+                        title="Blue"
+                      >
+                        B
+                      </abbr>
+                    </span>
+                  </Avatar>
+                </Avatar>
+                <Avatar
+                  color="sky"
+                  title="Sky"
+                >
+                  <Avatar
+                    color="sky"
+                    icon={undefined}
+                    size="large"
+                  >
+                    <span
+                      className="glamor-5"
+                    >
+                      <abbr
+                        title="Sky"
+                      >
+                        S
+                      </abbr>
+                    </span>
+                  </Avatar>
+                </Avatar>
+                <Avatar
+                  color="teal"
+                  title="Teal"
+                >
+                  <Avatar
+                    color="teal"
+                    icon={undefined}
+                    size="large"
+                  >
+                    <span
+                      className="glamor-6"
+                    >
+                      <abbr
+                        title="Teal"
+                      >
+                        T
+                      </abbr>
+                    </span>
+                  </Avatar>
+                </Avatar>
+                <Avatar
+                  color="green"
+                  title="Green"
+                >
+                  <Avatar
+                    color="green"
+                    icon={undefined}
+                    size="large"
+                  >
+                    <span
+                      className="glamor-7"
+                    >
+                      <abbr
+                        title="Green"
+                      >
+                        G
+                      </abbr>
+                    </span>
+                  </Avatar>
+                </Avatar>
+                <Avatar
+                  color="lime"
+                  title="Lime"
+                >
+                  <Avatar
+                    color="lime"
+                    icon={undefined}
+                    size="large"
+                  >
+                    <span
+                      className="glamor-8"
+                    >
+                      <abbr
+                        title="Lime"
+                      >
+                        L
+                      </abbr>
+                    </span>
+                  </Avatar>
+                </Avatar>
+                <Avatar
+                  color="yellow"
+                  title="Yellow"
+                >
+                  <Avatar
+                    color="yellow"
+                    icon={undefined}
+                    size="large"
+                  >
+                    <span
+                      className="glamor-9"
+                    >
+                      <abbr
+                        title="Yellow"
+                      >
+                        Y
+                      </abbr>
+                    </span>
+                  </Avatar>
+                </Avatar>
+                <Avatar
+                  color="orange"
+                  title="Orange"
+                >
+                  <Avatar
+                    color="orange"
+                    icon={undefined}
+                    size="large"
+                  >
+                    <span
+                      className="glamor-10"
+                    >
+                      <abbr
+                        title="Orange"
+                      >
+                        O
+                      </abbr>
+                    </span>
+                  </Avatar>
+                </Avatar>
+                <Avatar
+                  color="gray"
+                  title="Gray"
+                >
+                  <Avatar
+                    color="gray"
+                    icon={undefined}
+                    size="large"
+                  >
+                    <span
+                      className="glamor-11"
+                    >
+                      <abbr
+                        title="Gray"
+                      >
+                        G
+                      </abbr>
+                    </span>
+                  </Avatar>
+                </Avatar>
+                <Avatar
+                  color="slate"
+                  title="Slate"
+                >
+                  <Avatar
+                    color="slate"
+                    icon={undefined}
+                    size="large"
+                  >
+                    <span
+                      className="glamor-12"
+                    >
+                      <abbr
+                        title="Slate"
+                      >
+                        S
+                      </abbr>
+                    </span>
+                  </Avatar>
+                </Avatar>
+                <Avatar
+                  color="dusk"
+                  title="Dusk"
+                >
+                  <Avatar
+                    color="dusk"
+                    icon={undefined}
+                    size="large"
+                  >
+                    <span
+                      className="glamor-13"
+                    >
+                      <abbr
+                        title="Dusk"
+                      >
+                        D
+                      </abbr>
+                    </span>
+                  </Avatar>
+                </Avatar>
+                <Avatar
+                  color="theme"
+                  title="Theme"
+                >
+                  <Avatar
+                    color="theme"
+                    icon={undefined}
+                    size="large"
+                  >
+                    <span
+                      className="glamor-4"
+                    >
+                      <abbr
+                        title="Theme"
+                      >
+                        T
+                      </abbr>
+                    </span>
+                  </Avatar>
+                </Avatar>
+              </div>
+            </glamorous(div)>
+          </div>
+        </LivePreview>
+      </div>
+    </LiveProvider>
+  </ThemeProvider>
+</ThemeProvider>
+`;
+
+exports[`Avatar demo examples sizes 1`] = `
+.glamor-16 > *,
+[data-glamor-16] > * {
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+}
+
+.glamor-8,
+[data-glamor-8] {
+  align-items: center;
+  background-color: #2e6fd9;
+  color: #fff;
+  border-radius: 1.1111111111111112em;
+  display: -webkit-inline-box;
+  display: -moz-inline-box;
+  display: -ms-inline-flexbox;
+  display: -webkit-inline-flex;
+  display: inline-flex;
+  font-size: 1.125em;
+  font-weight: 700;
+  height: 2.2222222222222223em;
+  line-height: 2.2222222222222223em;
+  justify-content: center;
+  vertical-align: middle;
+  width: 2.2222222222222223em;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+}
+
+.glamor-8 > abbr,
+[data-glamor-8] > abbr {
+  text-decoration: none;
+}
+
+.glamor-8 > img,
+[data-glamor-8] > img {
+  display: block;
+  width: 100%;
+}
+
+.glamor-8 > [role="img"],
+[data-glamor-8] > [role="img"] {
+  fill: #fff;
+}
+
+.glamor-11,
+[data-glamor-11] {
+  align-items: center;
+  background-color: #2e6fd9;
+  color: #fff;
+  border-radius: 1.25em;
+  display: -webkit-inline-box;
+  display: -moz-inline-box;
+  display: -ms-inline-flexbox;
+  display: -webkit-inline-flex;
+  display: inline-flex;
+  font-size: 1em;
+  font-weight: 700;
+  height: 2.5em;
+  line-height: 2.5em;
+  justify-content: center;
+  vertical-align: middle;
+  width: 2.5em;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+}
+
+.glamor-11 > abbr,
+[data-glamor-11] > abbr {
+  text-decoration: none;
+}
+
+.glamor-11 > img,
+[data-glamor-11] > img {
+  display: block;
+  width: 100%;
+}
+
+.glamor-11 > [role="img"],
+[data-glamor-11] > [role="img"] {
+  fill: #fff;
+}
+
+.glamor-10,
+[data-glamor-10] {
+  fill: #8e99ab;
+  font-size: 16px;
+  height: 1.5em;
+  width: 1.5em;
+}
+
+.glamor-0,
+[data-glamor-0] {
+  align-items: center;
+  background-color: #2e6fd9;
+  color: #fff;
+  border-radius: 1.0909090909090908em;
+  display: -webkit-inline-box;
+  display: -moz-inline-box;
+  display: -ms-inline-flexbox;
+  display: -webkit-inline-flex;
+  display: inline-flex;
+  font-size: 0.6875em;
+  font-weight: 700;
+  height: 2.1818181818181817em;
+  line-height: 2.1818181818181817em;
+  justify-content: center;
+  vertical-align: middle;
+  width: 2.1818181818181817em;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+}
+
+.glamor-0 > abbr,
+[data-glamor-0] > abbr {
+  text-decoration: none;
+}
+
+.glamor-0 > img,
+[data-glamor-0] > img {
+  display: block;
+  width: 100%;
+}
+
+.glamor-0 > [role="img"],
+[data-glamor-0] > [role="img"] {
+  fill: #fff;
+}
+
+.glamor-3,
+[data-glamor-3] {
+  align-items: center;
+  background-color: #2e6fd9;
+  color: #fff;
+  border-radius: 0.75em;
+  display: -webkit-inline-box;
+  display: -moz-inline-box;
+  display: -ms-inline-flexbox;
+  display: -webkit-inline-flex;
+  display: inline-flex;
+  font-size: 1em;
+  font-weight: 700;
+  height: 1.5em;
+  line-height: 1.5em;
+  justify-content: center;
+  vertical-align: middle;
+  width: 1.5em;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+}
+
+.glamor-3 > abbr,
+[data-glamor-3] > abbr {
+  text-decoration: none;
+}
+
+.glamor-3 > img,
+[data-glamor-3] > img {
+  display: block;
+  width: 100%;
+}
+
+.glamor-3 > [role="img"],
+[data-glamor-3] > [role="img"] {
+  fill: #fff;
+}
+
+.glamor-2,
+[data-glamor-2] {
+  fill: #8e99ab;
+  font-size: 16px;
+  height: 1em;
+  width: 1em;
+}
+
+.glamor-4,
+[data-glamor-4] {
+  align-items: center;
+  background-color: #2e6fd9;
+  color: #fff;
+  border-radius: 1.1428571428571428em;
+  display: -webkit-inline-box;
+  display: -moz-inline-box;
+  display: -ms-inline-flexbox;
+  display: -webkit-inline-flex;
+  display: inline-flex;
+  font-size: 0.875em;
+  font-weight: 700;
+  height: 2.2857142857142856em;
+  line-height: 2.2857142857142856em;
+  justify-content: center;
+  vertical-align: middle;
+  width: 2.2857142857142856em;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+}
+
+.glamor-4 > abbr,
+[data-glamor-4] > abbr {
+  text-decoration: none;
+}
+
+.glamor-4 > img,
+[data-glamor-4] > img {
+  display: block;
+  width: 100%;
+}
+
+.glamor-4 > [role="img"],
+[data-glamor-4] > [role="img"] {
+  fill: #fff;
+}
+
+.glamor-7,
+[data-glamor-7] {
+  align-items: center;
+  background-color: #2e6fd9;
+  color: #fff;
+  border-radius: 1em;
+  display: -webkit-inline-box;
+  display: -moz-inline-box;
+  display: -ms-inline-flexbox;
+  display: -webkit-inline-flex;
+  display: inline-flex;
+  font-size: 1em;
+  font-weight: 700;
+  height: 2em;
+  line-height: 2em;
+  justify-content: center;
+  vertical-align: middle;
+  width: 2em;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+}
+
+.glamor-7 > abbr,
+[data-glamor-7] > abbr {
+  text-decoration: none;
+}
+
+.glamor-7 > img,
+[data-glamor-7] > img {
+  display: block;
+  width: 100%;
+}
+
+.glamor-7 > [role="img"],
+[data-glamor-7] > [role="img"] {
+  fill: #fff;
+}
+
+.glamor-12,
+[data-glamor-12] {
+  align-items: center;
+  background-color: #2e6fd9;
+  color: #fff;
+  border-radius: 1.4444444444444444em;
+  display: -webkit-inline-box;
+  display: -moz-inline-box;
+  display: -ms-inline-flexbox;
+  display: -webkit-inline-flex;
+  display: inline-flex;
+  font-size: 1.125em;
+  font-weight: 700;
+  height: 2.888888888888889em;
+  line-height: 2.888888888888889em;
+  justify-content: center;
+  vertical-align: middle;
+  width: 2.888888888888889em;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+}
+
+.glamor-12 > abbr,
+[data-glamor-12] > abbr {
+  text-decoration: none;
+}
+
+.glamor-12 > img,
+[data-glamor-12] > img {
+  display: block;
+  width: 100%;
+}
+
+.glamor-12 > [role="img"],
+[data-glamor-12] > [role="img"] {
+  fill: #fff;
+}
+
+.glamor-15,
+[data-glamor-15] {
+  align-items: center;
+  background-color: #2e6fd9;
+  color: #fff;
+  border-radius: 1.625em;
+  display: -webkit-inline-box;
+  display: -moz-inline-box;
+  display: -ms-inline-flexbox;
+  display: -webkit-inline-flex;
+  display: inline-flex;
+  font-size: 1em;
+  font-weight: 700;
+  height: 3.25em;
+  line-height: 3.25em;
+  justify-content: center;
+  vertical-align: middle;
+  width: 3.25em;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+}
+
+.glamor-15 > abbr,
+[data-glamor-15] > abbr {
+  text-decoration: none;
+}
+
+.glamor-15 > img,
+[data-glamor-15] > img {
+  display: block;
+  width: 100%;
+}
+
+.glamor-15 > [role="img"],
+[data-glamor-15] > [role="img"] {
+  fill: #fff;
+}
+
+<ThemeProvider>
+  <ThemeProvider
+    theme={
+      Object {
+        "backgroundColor_danger": "#db2929",
+        "backgroundColor_danger_active": "#c71818",
+        "backgroundColor_danger_activeMuted": "#f79999",
+        "backgroundColor_danger_focus": "#db2929",
+        "backgroundColor_danger_hover": "#eb4d4d",
+        "backgroundColor_danger_muted": "#fabebe",
+        "backgroundColor_disabled": "#ebeff5",
+        "backgroundColor_input": "#fff",
+        "backgroundColor_link_focus": "#dde3ed",
+        "backgroundColor_success": "#0a8f4c",
+        "backgroundColor_success_active": "#06783f",
+        "backgroundColor_success_activeMuted": "#95f5c3",
+        "backgroundColor_success_focus": "#0a8f4c",
+        "backgroundColor_success_hover": "#10a35a",
+        "backgroundColor_success_muted": "#c0fadc",
+        "backgroundColor_warning": "#e05b2b",
+        "backgroundColor_warning_active": "#cf4615",
+        "backgroundColor_warning_activeMuted": "#fab69d",
+        "backgroundColor_warning_focus": "#e05b2b",
+        "backgroundColor_warning_hover": "#ed774c",
+        "backgroundColor_warning_muted": "#fcd0c0",
+        "borderColor": "#c8d1e0",
+        "borderColor_active": "#2e6fd9",
+        "borderColor_danger": "#db2929",
+        "borderColor_danger_active": "#c71818",
+        "borderColor_danger_focus": "#c71818",
+        "borderColor_danger_hover": "#c71818",
+        "borderColor_danger_muted": "#f27474",
+        "borderColor_focus": "#2e6fd9",
+        "borderColor_hover": "#2e6fd9",
+        "borderColor_success": "#10a35a",
+        "borderColor_success_active": "#0a8f4c",
+        "borderColor_success_focus": "#0a8f4c",
+        "borderColor_success_hover": "#0a8f4c",
+        "borderColor_success_muted": "#67eba7",
+        "borderColor_warning": "#e05b2b",
+        "borderColor_warning_active": "#cf4615",
+        "borderColor_warning_focus": "#cf4615",
+        "borderColor_warning_hover": "#cf4615",
+        "borderColor_warning_muted": "#f59776",
+        "borderRadius_1": "0.1875em",
+        "color_black": "#1d1f24",
+        "color_caption": "#58606e",
+        "color_gray_10": "#f5f7fa",
+        "color_gray_100": "#333840",
+        "color_gray_20": "#ebeff5",
+        "color_gray_30": "#dde3ed",
+        "color_gray_40": "#c8d1e0",
+        "color_gray_50": "#afbacc",
+        "color_gray_60": "#8e99ab",
+        "color_gray_70": "#707a8a",
+        "color_gray_80": "#58606e",
+        "color_gray_90": "#434a54",
+        "color_placeholder": "#8e99ab",
+        "color_text": "#333840",
+        "color_text_danger": "#db2929",
+        "color_text_danger_active": "#c71818",
+        "color_text_danger_focus": "#db2929",
+        "color_text_danger_hover": "#eb4d4d",
+        "color_text_disabled": "#afbacc",
+        "color_text_ondanger": "#fff",
+        "color_text_onprimary": "#fff",
+        "color_text_onsuccess": "#fff",
+        "color_text_onwarning": "#fff",
+        "color_text_primary": "#2e6fd9",
+        "color_text_primary_active": "#1f5dc2",
+        "color_text_primary_focus": "#2e6fd9",
+        "color_text_primary_hover": "#4a89e8",
+        "color_text_success": "#06783f",
+        "color_text_success_active": "#046132",
+        "color_text_success_focus": "#06783f",
+        "color_text_success_hover": "#0a8f4c",
+        "color_text_warning": "#cf4615",
+        "color_text_warning_active": "#bd3909",
+        "color_text_warning_focus": "#cf4615",
+        "color_text_warning_hover": "#e05b2b",
+        "color_theme_10": "#e6eefc",
+        "color_theme_100": "#0f397d",
+        "color_theme_20": "#c2dbfc",
+        "color_theme_30": "#9dc2fa",
+        "color_theme_40": "#72a5f2",
+        "color_theme_50": "#4a89e8",
+        "color_theme_60": "#2e6fd9",
+        "color_theme_70": "#1f5dc2",
+        "color_theme_80": "#164ea8",
+        "color_theme_90": "#114091",
+        "color_white": "#fff",
+        "direction": "ltr",
+        "fontFamily": "Open Sans",
+        "fontFamily_monospace": "\\"SF Mono\\", \\"Droid Sans Mono\\", \\"Source Code Pro\\", Monaco, Consolas, \\"Courier New\\", Courier, monospace",
+        "fontFamily_system": "-apple-system, system-ui, BlinkMacSystemFont, \\"Segoe UI\\", Roboto, Helvetica, Arial, sans-serif, \\"Apple Color Emoji\\", \\"Segoe UI Emoji\\", \\"Segoe UI Symbol\\"",
+        "fontSize_base": 16,
+        "fontSize_h1": "2.125em",
+        "fontSize_h2": "1.75em",
+        "fontSize_h3": "1.375em",
+        "fontSize_h4": "1.125em",
+        "fontSize_h5": "0.875em",
+        "fontSize_h6": "0.875em",
+        "fontSize_mouse": "0.6875em",
+        "fontSize_prose": "1em",
+        "fontSize_ui": "0.875em",
+        "fontWeight_bold": 700,
+        "fontWeight_extraBold": 800,
+        "fontWeight_regular": 400,
+        "fontWeight_semiBold": 600,
+        "lineHeight": 1.25,
+        "lineHeight_prose": 1.5,
+        "shadow_1": "0 1px 2px 0 rgba(0,0,0,0.2), 0 2px 4px 0 rgba(0,0,0,0.2)",
+        "shadow_2": "0 2px 4px 0 rgba(0,0,0,0.2), 0 4px 8px 0 rgba(0,0,0,0.2)",
+        "shadow_3": "0 4px 8px 0 rgba(0,0,0,0.2), 0 8px 16px 0 rgba(0,0,0,0.2)",
+        "shadow_4": "0 8px 16px 0 rgba(0,0,0,0.2), 0 20px 16px -8px rgba(0,0,0,0.2)",
+        "shadow_5": "0 16px 24px 0 rgba(0,0,0,0.2), 0 32px 24px -16px rgba(0,0,0,0.2)",
+        "size_jumbo": "3.25em",
+        "size_large": "2.5em",
+        "size_medium": "2em",
+        "size_small": "1.5em",
+        "space_inline_lg": "1.5em",
+        "space_inline_md": "1em",
+        "space_inline_sm": "0.5em",
+        "space_inline_xl": "2em",
+        "space_inline_xs": "0.25em",
+        "space_inline_xxl": "4em",
+        "space_inline_xxs": "0.125em",
+        "space_inset_lg": "1.5em",
+        "space_inset_md": "1em",
+        "space_inset_sm": "0.5em",
+        "space_stack_lg": "1.5em",
+        "space_stack_md": "1em",
+        "space_stack_sm": "0.5em",
+        "space_stack_xl": "2em",
+        "space_stack_xs": "0.25em",
+        "space_stack_xxl": "4em",
+        "space_stack_xxs": "0.125em",
+        "zIndex_100": 100,
+        "zIndex_1600": 1600,
+        "zIndex_200": 200,
+        "zIndex_400": 400,
+        "zIndex_800": 800,
+      }
+    }
+  >
+    <LiveProvider
+      code="
+    <DemoLayout>
+      <Avatar size=\\"small\\">
+        <img src=\\"/images/215x210_avatar.png\\" alt=\\"Sam\\" />
+      </Avatar>
+      <Avatar size=\\"small\\" title=\\"Sam\\">S</Avatar>
+      <Avatar size=\\"small\\">
+        <IconCloud title=\\"cloud\\" />
+      </Avatar>
+      <br />
+      <Avatar size=\\"medium\\">
+        <img src=\\"/images/215x210_avatar.png\\" alt=\\"Melissa\\" />
+      </Avatar>
+      <Avatar size=\\"medium\\" title=\\"Melissa\\">M</Avatar>
+      <Avatar size=\\"medium\\">
+        <IconCloud title=\\"cloud\\" />
+      </Avatar>
+      <br />
+      <Avatar>
+        <img src=\\"/images/215x210_avatar.png\\" alt=\\"Lawrence\\" />
+      </Avatar>
+      <Avatar title=\\"Lawrence\\">L</Avatar>
+      <Avatar>
+        <IconCloud title=\\"cloud\\" />
+      </Avatar>
+      <br />
+      <Avatar size=\\"jumbo\\">
+        <img src=\\"/images/215x210_avatar.png\\" alt=\\"Jennifer\\" />
+      </Avatar>
+      <Avatar size=\\"jumbo\\" title=\\"Jennifer\\">J</Avatar>
+      <Avatar size=\\"jumbo\\">
+        <IconCloud title=\\"cloud\\" />
+      </Avatar>
+      <br />
+    </DemoLayout>"
+      mountStylesheet={false}
+      noInline={false}
+      scope={
+        Object {
+          "Avatar": [Function],
+          "DemoLayout": [Function],
+          "IconCloud": [Function],
+        }
+      }
+    >
+      <div
+        className="react-live"
+        scope={
+          Object {
+            "Avatar": [Function],
+            "DemoLayout": [Function],
+            "IconCloud": [Function],
+          }
+        }
+      >
+        <LivePreview>
+          <div
+            className="react-live-preview"
+          >
+            <glamorous(div)>
+              <div
+                className="glamor-16"
+              >
+                <Avatar
+                  size="small"
+                >
+                  <Avatar
+                    color="theme"
+                    icon={undefined}
+                    size="small"
+                  >
+                    <span
+                      className="glamor-0"
+                    >
+                      <img
+                        alt="Sam"
+                        src="/images/215x210_avatar.png"
+                      />
+                    </span>
+                  </Avatar>
+                </Avatar>
+                <Avatar
+                  size="small"
+                  title="Sam"
+                >
+                  <Avatar
+                    color="theme"
+                    icon={undefined}
+                    size="small"
+                  >
+                    <span
+                      className="glamor-0"
+                    >
+                      <abbr
+                        title="Sam"
+                      >
+                        S
+                      </abbr>
+                    </span>
+                  </Avatar>
+                </Avatar>
+                <Avatar
+                  size="small"
+                >
+                  <Avatar
+                    color="theme"
+                    icon={
+                      <IconCloud
+                        size="medium"
+                        title="cloud"
+                      />
+                    }
+                    size="small"
+                  >
+                    <span
+                      className="glamor-3"
+                    >
+                      <IconCloud
+                        size="medium"
+                        title="cloud"
+                      >
+                        <Icon
+                          rtl={false}
+                          size="medium"
+                          title="cloud"
+                        >
+                          <glamorous(svg)
+                            aria-hidden={null}
+                            aria-labelledby="icon-title-icon-2"
+                            role="img"
+                            rtl={false}
+                            size="medium"
+                            viewBox="0 0 24 24"
+                          >
+                            <svg
+                              aria-hidden={null}
+                              aria-labelledby="icon-title-icon-2"
+                              className="glamor-2"
+                              role="img"
+                              viewBox="0 0 24 24"
+                            >
+                              <title
+                                id="icon-title-icon-2"
+                              >
+                                cloud
+                              </title>
+                              <g>
+                                <path
+                                  d="M19.35 10.04A7.49 7.49 0 0 0 12 4C9.11 4 6.6 5.64 5.35 8.04A5.994 5.994 0 0 0 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96z"
+                                />
+                              </g>
+                            </svg>
+                          </glamorous(svg)>
+                        </Icon>
+                      </IconCloud>
+                    </span>
+                  </Avatar>
+                </Avatar>
+                <br />
+                <Avatar
+                  size="medium"
+                >
+                  <Avatar
+                    color="theme"
+                    icon={undefined}
+                    size="medium"
+                  >
+                    <span
+                      className="glamor-4"
+                    >
+                      <img
+                        alt="Melissa"
+                        src="/images/215x210_avatar.png"
+                      />
+                    </span>
+                  </Avatar>
+                </Avatar>
+                <Avatar
+                  size="medium"
+                  title="Melissa"
+                >
+                  <Avatar
+                    color="theme"
+                    icon={undefined}
+                    size="medium"
+                  >
+                    <span
+                      className="glamor-4"
+                    >
+                      <abbr
+                        title="Melissa"
+                      >
+                        M
+                      </abbr>
+                    </span>
+                  </Avatar>
+                </Avatar>
+                <Avatar
+                  size="medium"
+                >
+                  <Avatar
+                    color="theme"
+                    icon={
+                      <IconCloud
+                        size="medium"
+                        title="cloud"
+                      />
+                    }
+                    size="medium"
+                  >
+                    <span
+                      className="glamor-7"
+                    >
+                      <IconCloud
+                        size="medium"
+                        title="cloud"
+                      >
+                        <Icon
+                          rtl={false}
+                          size="medium"
+                          title="cloud"
+                        >
+                          <glamorous(svg)
+                            aria-hidden={null}
+                            aria-labelledby="icon-title-icon-3"
+                            role="img"
+                            rtl={false}
+                            size="medium"
+                            viewBox="0 0 24 24"
+                          >
+                            <svg
+                              aria-hidden={null}
+                              aria-labelledby="icon-title-icon-3"
+                              className="glamor-2"
+                              role="img"
+                              viewBox="0 0 24 24"
+                            >
+                              <title
+                                id="icon-title-icon-3"
+                              >
+                                cloud
+                              </title>
+                              <g>
+                                <path
+                                  d="M19.35 10.04A7.49 7.49 0 0 0 12 4C9.11 4 6.6 5.64 5.35 8.04A5.994 5.994 0 0 0 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96z"
+                                />
+                              </g>
+                            </svg>
+                          </glamorous(svg)>
+                        </Icon>
+                      </IconCloud>
+                    </span>
+                  </Avatar>
+                </Avatar>
+                <br />
+                <Avatar>
+                  <Avatar
+                    color="theme"
+                    icon={undefined}
+                    size="large"
+                  >
+                    <span
+                      className="glamor-8"
+                    >
+                      <img
+                        alt="Lawrence"
+                        src="/images/215x210_avatar.png"
+                      />
+                    </span>
+                  </Avatar>
+                </Avatar>
+                <Avatar
+                  title="Lawrence"
+                >
+                  <Avatar
+                    color="theme"
+                    icon={undefined}
+                    size="large"
+                  >
+                    <span
+                      className="glamor-8"
+                    >
+                      <abbr
+                        title="Lawrence"
+                      >
+                        L
+                      </abbr>
+                    </span>
+                  </Avatar>
+                </Avatar>
+                <Avatar>
+                  <Avatar
+                    color="theme"
+                    icon={
+                      <IconCloud
+                        size="1.5em"
+                        title="cloud"
+                      />
+                    }
+                    size="large"
+                  >
+                    <span
+                      className="glamor-11"
+                    >
+                      <IconCloud
+                        size="1.5em"
+                        title="cloud"
+                      >
+                        <Icon
+                          rtl={false}
+                          size="1.5em"
+                          title="cloud"
+                        >
+                          <glamorous(svg)
+                            aria-hidden={null}
+                            aria-labelledby="icon-title-icon-4"
+                            role="img"
+                            rtl={false}
+                            size="1.5em"
+                            viewBox="0 0 24 24"
+                          >
+                            <svg
+                              aria-hidden={null}
+                              aria-labelledby="icon-title-icon-4"
+                              className="glamor-10"
+                              role="img"
+                              viewBox="0 0 24 24"
+                            >
+                              <title
+                                id="icon-title-icon-4"
+                              >
+                                cloud
+                              </title>
+                              <g>
+                                <path
+                                  d="M19.35 10.04A7.49 7.49 0 0 0 12 4C9.11 4 6.6 5.64 5.35 8.04A5.994 5.994 0 0 0 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96z"
+                                />
+                              </g>
+                            </svg>
+                          </glamorous(svg)>
+                        </Icon>
+                      </IconCloud>
+                    </span>
+                  </Avatar>
+                </Avatar>
+                <br />
+                <Avatar
+                  size="jumbo"
+                >
+                  <Avatar
+                    color="theme"
+                    icon={undefined}
+                    size="jumbo"
+                  >
+                    <span
+                      className="glamor-12"
+                    >
+                      <img
+                        alt="Jennifer"
+                        src="/images/215x210_avatar.png"
+                      />
+                    </span>
+                  </Avatar>
+                </Avatar>
+                <Avatar
+                  size="jumbo"
+                  title="Jennifer"
+                >
+                  <Avatar
+                    color="theme"
+                    icon={undefined}
+                    size="jumbo"
+                  >
+                    <span
+                      className="glamor-12"
+                    >
+                      <abbr
+                        title="Jennifer"
+                      >
+                        J
+                      </abbr>
+                    </span>
+                  </Avatar>
+                </Avatar>
+                <Avatar
+                  size="jumbo"
+                >
+                  <Avatar
+                    color="theme"
+                    icon={
+                      <IconCloud
+                        size="1.5em"
+                        title="cloud"
+                      />
+                    }
+                    size="jumbo"
+                  >
+                    <span
+                      className="glamor-15"
+                    >
+                      <IconCloud
+                        size="1.5em"
+                        title="cloud"
+                      >
+                        <Icon
+                          rtl={false}
+                          size="1.5em"
+                          title="cloud"
+                        >
+                          <glamorous(svg)
+                            aria-hidden={null}
+                            aria-labelledby="icon-title-icon-5"
+                            role="img"
+                            rtl={false}
+                            size="1.5em"
+                            viewBox="0 0 24 24"
+                          >
+                            <svg
+                              aria-hidden={null}
+                              aria-labelledby="icon-title-icon-5"
+                              className="glamor-10"
+                              role="img"
+                              viewBox="0 0 24 24"
+                            >
+                              <title
+                                id="icon-title-icon-5"
+                              >
+                                cloud
+                              </title>
+                              <g>
+                                <path
+                                  d="M19.35 10.04A7.49 7.49 0 0 0 12 4C9.11 4 6.6 5.64 5.35 8.04A5.994 5.994 0 0 0 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96z"
+                                />
+                              </g>
+                            </svg>
+                          </glamorous(svg)>
+                        </Icon>
+                      </IconCloud>
+                    </span>
+                  </Avatar>
+                </Avatar>
+                <br />
+              </div>
+            </glamorous(div)>
+          </div>
+        </LivePreview>
+      </div>
+    </LiveProvider>
+  </ThemeProvider>
+</ThemeProvider>
+`;
